@@ -3,7 +3,7 @@
 _get_ziplink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "la" ]]
+    if [[ $UPSTREAM_REPO == "sky" ]]
     then
         echo "YGh0dHBzOi8vZ2l0aHViLmNvbS9CQkhYWC9za3kvYXJjaGl2ZS9tYXN0ZXIuemlwYA==" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
