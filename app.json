@@ -1,5 +1,5 @@
 {
-  "name": "laca",
+  "name": "sky",
   "description": "A simple Telegram userbot based on Telethon . Maintained by Sandeep ",
   "logo": "https://telegra.ph/file/cc47e4151262ee7b41545.jpg",
   "keywords": [
@@ -77,7 +77,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
-      "value": "yoland",
+      "value": "sky",
       "required": false
     }
   },
