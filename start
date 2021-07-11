@@ -23,7 +23,7 @@ _get_repolink () {
     local regex
     local rlink
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "la" ]]
+    if [[ $UPSTREAM_REPO == "sky" ]]
     then
         rlink=`echo "YGh0dHBzOi8vZ2l0aHViLmNvbS9CQkhYWGAvc2t5" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
