@@ -25,12 +25,12 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "sky" ]]
     then
-        rlink=`echo "YGh0dHBzOi8vZ2l0aHViLmNvbS9CQkhYWGAvc2t5" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0JCSFhYL3NreQ==" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         rlink=`echo "${UPSTREAM_REPO}"`
     else
-        rlink=`echo "YGh0dHBzOi8vZ2l0aHViLmNvbS9CQkhYWGAvc2t5" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0JCSFhYL3NreQ==" | base64 -d`
     fi
     echo "$rlink"
 }
@@ -44,7 +44,7 @@ _run_catpack_git() {
     $(_run_python_code 'from git import Repo
 import sys
 
-OFFICIAL_UPSTREAM_REPO = "https://github.com/BBHXX/skypack"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/BBHXX/catpack"
 ACTIVE_BRANCH_NAME = "master"
 
 repo = Repo.init()
