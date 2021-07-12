@@ -1,7 +1,7 @@
-FROM BBHXX/sky:alpine
+FROM BBHXX/catpack:alpine
 
 #clonning repo 
-RUN git clone https://github.com/BBHXX/sky.git /root/userbot
+RUN git clone https://github.com/BBHXX/catpack.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
