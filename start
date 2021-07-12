@@ -5,7 +5,7 @@ _get_ziplink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "sky" ]]
     then
-        echo "YGh0dHBzOi8vZ2l0aHViLmNvbS9CQkhYWC9za3kvYXJjaGl2ZS9tYXN0ZXIuemlwYA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0JCSFhYL3NreS9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         if [[ $UPSTREAM_REPO_BRANCH ]]
@@ -15,7 +15,7 @@ _get_ziplink () {
             echo "${UPSTREAM_REPO}/archive/master.zip"
         fi
     else
-        echo "YGh0dHBzOi8vZ2l0aHViLmNvbS9CQkhYWC9za3kvYXJjaGl2ZS9tYXN0ZXIuemlwYA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0JCSFhYL3NreS9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
     fi
 }
 
