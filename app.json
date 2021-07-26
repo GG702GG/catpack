@@ -15,23 +15,23 @@
       "description": "give your name",
       "value": ""
     },
-    "APP_ID": {
+    "ايبي ايدي": {
       "description": "Get this value from my.telegram.org! Please do not steal",
       "value": ""
     },
-    "API_HASH": {
+    "ايبي هاش": {
       "description": "Get this value from my.telegram.org! Please do not steal",
       "value": ""
     },
-    "STRING_SESSION": {
+    "كود تيرمكس": {
       "description": "Get this value by running python3 telesetup.py locally or https://generatestringsession.sandeep1709.repl.run",
       "value": ""
     },
-    "TG_BOT_USERNAME": {
+    "معرف البوت": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
       "value": ""
     },
-    "TG_BOT_TOKEN": {
+    "توكن البوت": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
       "value": ""
     },
@@ -40,39 +40,39 @@
       "value": ".",
       "required": false
     },
-    "ENV": {
+    "تركه فارغ": {
       "description": "Setting this to ANYTHING will enable heroku.",
       "value": "ANYTHING",
       "required": false
     },
-    "HEROKU_API_KEY": {
+    "هيروكو اب كي ": {
       "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
       "value": "",
       "required": false
     },
-    "PMPERMIT_PIC": {
+    "تركه فارغ": {
       "description": "*****",
-      "value": "https://telegra.ph/file/cc47e4151262ee7b41545.jpg",
+      "value": ".",
       "required": false
     },
-    "PRIVATE_GROUP_ID": {
-      "description": "*****",
-      "value": "-1001237792519",
-      "required": false
-    },
-    "PRIVATE_GROUP_BOT_API_ID": {
+    "ايدي الكروب مهم جدا": {
       "description": "*****",
       "value": "-1001237792519",
       "required": false
     },
-    "HEROKU_APP_NAME": {
+    "ايدي الكروب كذلك": {
+      "description": "*****",
+      "value": "-1001237792519",
+      "required": false
+    },
+    "اسم تطبيق هيركو": {
       "description": "YOUR app name ",
       "value": "",
       "required": false
     },
     "TZ": {
       "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Kolkata",
+      "value": "Asia/Baghdad",
       "required": false
     },
     "UPSTREAM_REPO": {
