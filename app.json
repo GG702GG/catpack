@@ -75,7 +75,7 @@
       "value": "Asia/Baghdad",
       "required": false
     },
-    "UPSTREAM_REPO": {
+    "رمز السورس": {
       "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
       "value": "sky",
       "required": false
