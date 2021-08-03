@@ -1,7 +1,7 @@
-FROM BBHXX/catpack:alpine
+FROM GG702GG/catpack:alpine
 
 #clonning repo 
-RUN git clone https://github.com/BBHXX/catpack.git /root/userbot
+RUN git clone https://github.com/GG702GG/catpack.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
